@@ -1,44 +1,126 @@
 /* HEDING */
 .mainheading {
-    
     color: rgb(8, 57, 77);
+    /* background-image:url(background.jpg); */
     width: auto;
-    margin-top: 5%;
+    margin-top: 0px;
     text-align: center;
-    font-size: 150%;
+    font-size: 200%;
     font-family: monospace;
-    /* position: absolute; */
+    padding: 0.1%;
 }
-
 
 /* BODY */
 body {
-    background-color: #e0f3ff;
+    /* background-color: #e0f3ff; */
+    margin: 0px;
 }
 
-
-
-/* NOTE : IMAGE */
+/* NOTE : IMAGE --> DONE */
 .coder {
-    margin-top: 8%;
-    height: 20%;
-    width: 20%;
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    height: 13rem;
+    width: 20rem;
+
 }
 
+/* NOTE : CLOUDE */
 .cloud1 {
-    height: 20%;
-    width: 20%;
-
     position: absolute;
-    top: 100px;
-    left: 30px;
+    top: 20%;
+    left: 10%;
+    height: 15%;
+    width: 15%;
 }
+
 .cloud2 {
-    height: 20%;
-    width: 20%;
-
     position: absolute;
-    top: 200px;
-    right: 50px;
+    top: 45%;
+    right: 10%;
+    height: 15%;
+    width: 15%;
 }
 
+
+/* NOTE : PART_ONE */
+.one {
+    background-color: #e0f3ff;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+/* --> Social Media  */
+.instagram {
+    height: 30px;
+    width: 30px;
+    text-decoration: none;
+}
+
+.twitter {
+    height: 30px;
+    width: 30px;
+    margin-left: 10%;
+    text-decoration: none;
+}
+
+.linkedin {
+    height: 30px;
+    width: 30px;
+    margin-left: 10%;
+    text-decoration: none;
+}
+
+img.edu {
+    height: 200px;
+    width: 200px;
+    float: left;
+    text-align: right;
+    margin-left: 70px;
+}
+
+img.skills {
+    height: 200px;
+    width: 200px;
+    float: right;
+    text-align: right;
+    margin-right: 70px;
+    /* margin-top: 10%; */
+}
+
+h3.skills {
+    line-height: 2;
+    font-size: 120%;
+    font-family: sans-serif;
+    margin-top: 10%;
+    padding-left: 10%;
+    padding-right: 30%;
+    padding-top: 30px;
+}
+
+h3.edu {
+    line-height: 2;
+    font-size: 120%;
+    font-family: sans-serif;
+    margin-left: 300px;
+    padding-top: 40px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.socialmedia {
+    text-align: center;
+    background-color: #e0f3ff;
+    padding: 10%;
+    padding-bottom: 1%;
+    padding: 3% 5% 0 5%;
+    margin-top: 10%;
+    font-size: 150%;
+    color: rgb(8, 57, 77);
+}
+
+.imgsm {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
